@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  margin: 0rem;
+  overflow-x: hidden;
+  background-image: url("https://i.pinimg.com/736x/94/58/68/94586826ae9b083f64df46d62a8f8a3c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+p {
+  font-size: 14pt;
+  text-align: justify;
+}
+h3 {
+  font-size: 20pt;
+}
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 230%;
+  transform: translate(0%, -50%); 
+  background-color: rgb(255, 255, 255);
+  user-select: none; /* -- Prevent image highlighting -- */
+  padding: 30px;
+}
+
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+footer {
+  margin-top : 90vh; 
+}
+
+
+.Atrist-info {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80vw;
+  margin-left: 10vw;
+  margin-top: 80px;
+  color: rgb(46, 60, 54);
+  font-weight: 700;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.467);
+  border-radius: 20px;
+  padding: 20px;
+}

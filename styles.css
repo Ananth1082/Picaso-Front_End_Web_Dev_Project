@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    box-shadow: 0px 15px 10px -15px #111;   
+    width: 100%;
+    margin-top: 0;
+    background-color: white;
+    display: flex;
+    gap:5vw;
+}
+nav {
+    display: flex;
+    gap:4vw;
+    align-items: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav div {
+    padding: 10px;
+}
+nav div:hover {
+    background-color: rgb(214, 207, 207);
+}
+
+footer {
+    background-color: #111;
+    height:100px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 65px;
+}
+p {
+    line-height: 35px;
+    font-size: 16pt;
+}
+a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.Logo {
+    height: 15vh;
+    
+}
+
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background: linear-gradient(70deg, white, rgb(241, 240, 240));
+    padding: 20px;
+}
+
+.sub-container-text {
+    align-self: center;
+    width: 35%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.sub-container-img img {
+    border-radius: 20px;
+    width:40vw;
+}
+.Container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height:80vh
+}
+.cont-home {
+    background: linear-gradient(to top right, rgb(216, 223, 223) 10%, rgb(255, 255, 255) 50%);
+    box-shadow: 0px 15px 10px -15px #111;
+    border-radius: 20px;
+    margin-top: 15vh;
+    text-align: center;
+    padding: 20px;
+}
+.cont-home button {
+    border: none;
+    border-radius: 10px;
+    background-color:#dca41f;
+    
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 25pt;
+    margin-left: 20px;
+}
+
+.search-box {
+    margin-left: 30vw;
+    margin-top: 20vh;
+}
